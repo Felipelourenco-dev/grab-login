@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+
+.container__login {
+
+    margin-bottom: 200px;
+    text-align: center;
+
+}
+
+.login {
+
+    background-color: #4E5BEE;
+    width: 60vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    position: relative;
+    border-radius: 25px 0 0 25px;
+    z-index: 1;
+}
+
+.logo  {
+
+    margin-bottom: 50px;
+    margin-top: 170px;
+}
+
+.logo__img {
+
+    text-align: center;
+    width: 200px;
+    margin-bottom: 10px;
+    
+
+}
+
+/* INPUTS */
+
+.inputs {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#email:active {
+
+    outline: none;
+}
+
+input {
+
+    width: 315px;
+    height: 40px;
+
+    border: solid 2px #F8F8F8;
+    border-radius: 30px;
+    background: #4E5BEE;
+
+    margin-bottom: 20px;
+
+    text-align: center;
+    color: #F8F8F8;
+    font-size: 20px;
+}
+
+.inputs img {
+
+    width: 20px;
+    height: 20px;
+}
+
+.invalido {
+
+    border: solid 2px #FF5757;
+}
+
+.error {
+    color: #F8F8F8;
+    font-size: 15px;
+    margin: 0
+}
+
+#email {
+    background-image: url(../imagens/@.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    
+}
+
+
+#email:focus {
+
+    background-image: none;
+    text-align: center;
+    color: #F8F8F8;
+    font-size: 20px;
+    outline: none;
+}
+
+#senha {
+    background-image: url(../imagens/cadeado.svg);
+    background-repeat: no-repeat;
+    background-position: 10px;
+   
+}
+
+#senha:focus {
+
+    background-image: none;
+    text-align: center;
+    color: #F8F8F8;
+    font-size: 20px;
+    outline: none;
+}
+
+.icon {
+    stroke: #cc0d0d;
+}
+
+button {
+
+    background-color: #F8F8F8;
+    margin-top: 25px;
+    border-radius: 30px;
+    border: none;
+    height: 50px;
+
+    font-size: 18px;
+    
+}
+
+button:hover {
+
+    cursor: pointer;
+    background-color: #cc0d0d;
+    color: #F8F8F8;
+}
+
+button:focus {
+
+    outline: none;
+}
+
+.rodape, a {
+
+    text-align: center;
+    color: #F8F8F8;
+    text-decoration: none;
+   
+}
+
+/* IMAGEM LATERAL */
+
+.bg img {
+   
+    background-repeat: no-repeat;
+    background-position: left;
+    position: relative;
+    margin-top: 130px;
+    width: 100%;
+    left: -13%;
+}

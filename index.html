@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grab - Login</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsivo.css">
+  </head>
+  <body>
+    
+    <section class="login">
+
+      <div class="container__login">
+      <div class="logo">
+        <h1><img class="logo__img" src="./assets/imagens/logo-grab.svg" alt="Logo Grab"></h1>
+      </div>
+
+      <div class="inputs">
+        <input onblur="validarEmail()" onfocus="redefinirMsg()" type="email" name="email" id="email" >
+        <div class="error"></div>
+        <input type="password" name="senha" id="senha">
+        <button type="submit">Entrar</button>
+
+        
+      </div>
+      </div>
+
+      <div class="rodape">
+        <p>problemas para entrar?</p>
+        <a href="#">clique aqui!</a>
+      </div>
+
+      
+    </section>
+
+    <div class="bg">
+
+      <img src="./assets/imagens/undraw_interview_rmcf.svg" alt="">
+      
+    </div>
+
+    <script src="./assets/js/email.js"></script>
+  </body>
+</html>
